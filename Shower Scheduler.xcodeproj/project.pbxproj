@@ -8,25 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		430BECD720589B1D00ADF817 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430BECD620589B1D00ADF817 /* AppDelegate.swift */; };
-		430BECD920589B1D00ADF817 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430BECD820589B1D00ADF817 /* ViewController.swift */; };
 		430BECDC20589B1D00ADF817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430BECDA20589B1D00ADF817 /* Main.storyboard */; };
 		430BECDF20589B1D00ADF817 /* Shower_Scheduler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 430BECDD20589B1D00ADF817 /* Shower_Scheduler.xcdatamodeld */; };
 		430BECE120589B1D00ADF817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 430BECE020589B1D00ADF817 /* Assets.xcassets */; };
 		430BECE420589B1D00ADF817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430BECE220589B1D00ADF817 /* LaunchScreen.storyboard */; };
 		43B4E2882059F1820012FF87 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43B4E2872059F1820012FF87 /* GoogleService-Info.plist */; };
+		43B4E28A2059F8AD0012FF87 /* ShowersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4E2892059F8AD0012FF87 /* ShowersViewController.swift */; };
+		43B4E28C2059F8E10012FF87 /* AlarmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4E28B2059F8E10012FF87 /* AlarmsViewController.swift */; };
+		43B4E28E2059F8FF0012FF87 /* ShowerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4E28D2059F8FF0012FF87 /* ShowerDetailViewController.swift */; };
+		43B4E2902059F9110012FF87 /* AlarmDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4E28F2059F9110012FF87 /* AlarmDetailViewController.swift */; };
 		59AA582A293842E5F6BB6F80 /* Pods_Shower_Scheduler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE52C7A4DED560E7B5752370 /* Pods_Shower_Scheduler.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		430BECD320589B1D00ADF817 /* Shower Scheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shower Scheduler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		430BECD620589B1D00ADF817 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		430BECD820589B1D00ADF817 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		430BECDB20589B1D00ADF817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		430BECDE20589B1D00ADF817 /* Shower_Scheduler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shower_Scheduler.xcdatamodel; sourceTree = "<group>"; };
 		430BECE020589B1D00ADF817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		430BECE320589B1D00ADF817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		430BECE520589B1D00ADF817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43B4E2872059F1820012FF87 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		43B4E2892059F8AD0012FF87 /* ShowersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowersViewController.swift; sourceTree = "<group>"; };
+		43B4E28B2059F8E10012FF87 /* AlarmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmsViewController.swift; sourceTree = "<group>"; };
+		43B4E28D2059F8FF0012FF87 /* ShowerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowerDetailViewController.swift; sourceTree = "<group>"; };
+		43B4E28F2059F9110012FF87 /* AlarmDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmDetailViewController.swift; sourceTree = "<group>"; };
 		6C70C21B91BCA9C4A882BF83 /* Pods-Shower Scheduler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shower Scheduler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shower Scheduler/Pods-Shower Scheduler.debug.xcconfig"; sourceTree = "<group>"; };
 		6F013CA320252BE63716BE77 /* Pods-Shower Scheduler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shower Scheduler.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shower Scheduler/Pods-Shower Scheduler.release.xcconfig"; sourceTree = "<group>"; };
 		AE52C7A4DED560E7B5752370 /* Pods_Shower_Scheduler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shower_Scheduler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,16 +71,35 @@
 		430BECD520589B1D00ADF817 /* Shower Scheduler */ = {
 			isa = PBXGroup;
 			children = (
+				43B4E2912059F91B0012FF87 /* Controllers */,
+				43B4E2922059F9410012FF87 /* Views */,
 				430BECD620589B1D00ADF817 /* AppDelegate.swift */,
-				430BECD820589B1D00ADF817 /* ViewController.swift */,
-				430BECDA20589B1D00ADF817 /* Main.storyboard */,
 				430BECE020589B1D00ADF817 /* Assets.xcassets */,
-				430BECE220589B1D00ADF817 /* LaunchScreen.storyboard */,
 				430BECE520589B1D00ADF817 /* Info.plist */,
 				43B4E2872059F1820012FF87 /* GoogleService-Info.plist */,
 				430BECDD20589B1D00ADF817 /* Shower_Scheduler.xcdatamodeld */,
 			);
 			path = "Shower Scheduler";
+			sourceTree = "<group>";
+		};
+		43B4E2912059F91B0012FF87 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				43B4E2892059F8AD0012FF87 /* ShowersViewController.swift */,
+				43B4E28B2059F8E10012FF87 /* AlarmsViewController.swift */,
+				43B4E28D2059F8FF0012FF87 /* ShowerDetailViewController.swift */,
+				43B4E28F2059F9110012FF87 /* AlarmDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		43B4E2922059F9410012FF87 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				430BECE220589B1D00ADF817 /* LaunchScreen.storyboard */,
+				430BECDA20589B1D00ADF817 /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		4D0E0B25C8A24F5637F39A2D /* Pods */ = {
@@ -232,9 +257,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43B4E28A2059F8AD0012FF87 /* ShowersViewController.swift in Sources */,
 				430BECDF20589B1D00ADF817 /* Shower_Scheduler.xcdatamodeld in Sources */,
-				430BECD920589B1D00ADF817 /* ViewController.swift in Sources */,
 				430BECD720589B1D00ADF817 /* AppDelegate.swift in Sources */,
+				43B4E2902059F9110012FF87 /* AlarmDetailViewController.swift in Sources */,
+				43B4E28E2059F8FF0012FF87 /* ShowerDetailViewController.swift in Sources */,
+				43B4E28C2059F8E10012FF87 /* AlarmsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
