@@ -15,8 +15,8 @@
 		43B4E2882059F1820012FF87 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43B4E2872059F1820012FF87 /* GoogleService-Info.plist */; };
 		43B4E28A2059F8AD0012FF87 /* ShowersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4E2892059F8AD0012FF87 /* ShowersViewController.swift */; };
 		43B4E28C2059F8E10012FF87 /* AlarmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4E28B2059F8E10012FF87 /* AlarmsViewController.swift */; };
-		43B4E28E2059F8FF0012FF87 /* ShowerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4E28D2059F8FF0012FF87 /* ShowerDetailViewController.swift */; };
 		43B4E2902059F9110012FF87 /* AlarmDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4E28F2059F9110012FF87 /* AlarmDetailViewController.swift */; };
+		43B70B21205B3682007B5488 /* ShowerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B70B20205B3682007B5488 /* ShowerDetailViewController.swift */; };
 		59AA582A293842E5F6BB6F80 /* Pods_Shower_Scheduler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE52C7A4DED560E7B5752370 /* Pods_Shower_Scheduler.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,8 +31,8 @@
 		43B4E2872059F1820012FF87 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		43B4E2892059F8AD0012FF87 /* ShowersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowersViewController.swift; sourceTree = "<group>"; };
 		43B4E28B2059F8E10012FF87 /* AlarmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmsViewController.swift; sourceTree = "<group>"; };
-		43B4E28D2059F8FF0012FF87 /* ShowerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowerDetailViewController.swift; sourceTree = "<group>"; };
 		43B4E28F2059F9110012FF87 /* AlarmDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmDetailViewController.swift; sourceTree = "<group>"; };
+		43B70B20205B3682007B5488 /* ShowerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowerDetailViewController.swift; sourceTree = "<group>"; };
 		6C70C21B91BCA9C4A882BF83 /* Pods-Shower Scheduler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shower Scheduler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shower Scheduler/Pods-Shower Scheduler.debug.xcconfig"; sourceTree = "<group>"; };
 		6F013CA320252BE63716BE77 /* Pods-Shower Scheduler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shower Scheduler.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shower Scheduler/Pods-Shower Scheduler.release.xcconfig"; sourceTree = "<group>"; };
 		AE52C7A4DED560E7B5752370 /* Pods_Shower_Scheduler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shower_Scheduler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,8 +87,8 @@
 			children = (
 				43B4E2892059F8AD0012FF87 /* ShowersViewController.swift */,
 				43B4E28B2059F8E10012FF87 /* AlarmsViewController.swift */,
-				43B4E28D2059F8FF0012FF87 /* ShowerDetailViewController.swift */,
 				43B4E28F2059F9110012FF87 /* AlarmDetailViewController.swift */,
+				43B70B20205B3682007B5488 /* ShowerDetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -261,7 +261,7 @@
 				430BECDF20589B1D00ADF817 /* Shower_Scheduler.xcdatamodeld in Sources */,
 				430BECD720589B1D00ADF817 /* AppDelegate.swift in Sources */,
 				43B4E2902059F9110012FF87 /* AlarmDetailViewController.swift in Sources */,
-				43B4E28E2059F8FF0012FF87 /* ShowerDetailViewController.swift in Sources */,
+				43B70B21205B3682007B5488 /* ShowerDetailViewController.swift in Sources */,
 				43B4E28C2059F8E10012FF87 /* AlarmsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
