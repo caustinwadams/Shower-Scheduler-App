@@ -14,6 +14,7 @@
 		430BECE120589B1D00ADF817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 430BECE020589B1D00ADF817 /* Assets.xcassets */; };
 		430BECE420589B1D00ADF817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430BECE220589B1D00ADF817 /* LaunchScreen.storyboard */; };
 		43B4E2882059F1820012FF87 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43B4E2872059F1820012FF87 /* GoogleService-Info.plist */; };
+		59AA582A293842E5F6BB6F80 /* Pods_Shower_Scheduler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE52C7A4DED560E7B5752370 /* Pods_Shower_Scheduler.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		430BECE320589B1D00ADF817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		430BECE520589B1D00ADF817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43B4E2872059F1820012FF87 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6C70C21B91BCA9C4A882BF83 /* Pods-Shower Scheduler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shower Scheduler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shower Scheduler/Pods-Shower Scheduler.debug.xcconfig"; sourceTree = "<group>"; };
+		6F013CA320252BE63716BE77 /* Pods-Shower Scheduler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shower Scheduler.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shower Scheduler/Pods-Shower Scheduler.release.xcconfig"; sourceTree = "<group>"; };
+		AE52C7A4DED560E7B5752370 /* Pods_Shower_Scheduler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shower_Scheduler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59AA582A293842E5F6BB6F80 /* Pods_Shower_Scheduler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				430BECD520589B1D00ADF817 /* Shower Scheduler */,
 				430BECD420589B1D00ADF817 /* Products */,
+				4D0E0B25C8A24F5637F39A2D /* Pods */,
+				81E2BEA5756DF07D6B9B3549 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +77,23 @@
 			path = "Shower Scheduler";
 			sourceTree = "<group>";
 		};
+		4D0E0B25C8A24F5637F39A2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C70C21B91BCA9C4A882BF83 /* Pods-Shower Scheduler.debug.xcconfig */,
+				6F013CA320252BE63716BE77 /* Pods-Shower Scheduler.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		81E2BEA5756DF07D6B9B3549 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE52C7A4DED560E7B5752370 /* Pods_Shower_Scheduler.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 430BECE820589B1D00ADF817 /* Build configuration list for PBXNativeTarget "Shower Scheduler" */;
 			buildPhases = (
+				7634AA5F90A9B1E58468D8C2 /* [CP] Check Pods Manifest.lock */,
 				430BECCF20589B1D00ADF817 /* Sources */,
 				430BECD020589B1D00ADF817 /* Frameworks */,
 				430BECD120589B1D00ADF817 /* Resources */,
+				F6689FAED25B2772AF6482C4 /* [CP] Embed Pods Frameworks */,
+				A40CA776D7378561BFABA64B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,6 +164,68 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7634AA5F90A9B1E58468D8C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shower Scheduler-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A40CA776D7378561BFABA64B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shower Scheduler/Pods-Shower Scheduler-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6689FAED25B2772AF6482C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Shower Scheduler/Pods-Shower Scheduler-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shower Scheduler/Pods-Shower Scheduler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		430BECCF20589B1D00ADF817 /* Sources */ = {
@@ -280,6 +369,7 @@
 		};
 		430BECE920589B1D00ADF817 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C70C21B91BCA9C4A882BF83 /* Pods-Shower Scheduler.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +385,7 @@
 		};
 		430BECEA20589B1D00ADF817 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F013CA320252BE63716BE77 /* Pods-Shower Scheduler.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
