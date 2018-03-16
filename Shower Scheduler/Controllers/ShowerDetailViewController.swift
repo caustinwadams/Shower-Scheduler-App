@@ -8,6 +8,7 @@
 
 import UIKit
 import ChameleonFramework
+import Firebase
 
 class ShowerDetailViewController: UIViewController {
 
@@ -15,18 +16,29 @@ class ShowerDetailViewController: UIViewController {
     @IBOutlet weak var showerButton: UIButton!
     var isRunning: Bool = false
     
-    func setLabels(_ color: UIColor, _ buttonLabel: String, _ titleLabel: String) {
+    func setLabels(_ color       : UIColor,
+                   _ buttonLabel : String,
+                   _ titleLabel  : String) {
         showerButton.backgroundColor! = color
         showerButton.setTitle(buttonLabel, for: .normal)
         showerLabel.text! = titleLabel
     }
     
+    // TODO: - Need to change Rules in FB to make users needed to start/stop shower
     @IBAction func buttonToggled(_ sender: UIButton) {
         isRunning = !isRunning
+        let cloudDB = Database.database().reference().child("Shower")
+        let showerDict: [String: Any] = [
+            "user" : "Austin",
+            "time" : "\(Date())"
+        ]
+        
         if isRunning {
             setLabels(UIColor.flatRed(), "Stop", "Shower Running")
+            cloudDB.childByAutoId().setValue(showerDict)
         } else {
             setLabels(UIColor.flatSkyBlue(), "Start", "Shower Stopped")
+            cloudDB.removeValue()
         }
     }
     
