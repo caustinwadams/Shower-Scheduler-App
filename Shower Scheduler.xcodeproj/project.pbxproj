@@ -12,6 +12,7 @@
 		430BECDF20589B1D00ADF817 /* Shower_Scheduler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 430BECDD20589B1D00ADF817 /* Shower_Scheduler.xcdatamodeld */; };
 		430BECE120589B1D00ADF817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 430BECE020589B1D00ADF817 /* Assets.xcassets */; };
 		430BECE420589B1D00ADF817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430BECE220589B1D00ADF817 /* LaunchScreen.storyboard */; };
+		431B6354205F588200970DBC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431B6353205F588200970DBC /* LoginViewController.swift */; };
 		43B4E2882059F1820012FF87 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43B4E2872059F1820012FF87 /* GoogleService-Info.plist */; };
 		43B4E28A2059F8AD0012FF87 /* ShowersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4E2892059F8AD0012FF87 /* ShowersViewController.swift */; };
 		43B4E28C2059F8E10012FF87 /* AlarmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4E28B2059F8E10012FF87 /* AlarmsViewController.swift */; };
@@ -28,6 +29,7 @@
 		430BECE020589B1D00ADF817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		430BECE320589B1D00ADF817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		430BECE520589B1D00ADF817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		431B6353205F588200970DBC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		43B4E2872059F1820012FF87 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		43B4E2892059F8AD0012FF87 /* ShowersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowersViewController.swift; sourceTree = "<group>"; };
 		43B4E28B2059F8E10012FF87 /* AlarmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmsViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				43B4E28B2059F8E10012FF87 /* AlarmsViewController.swift */,
 				43B4E28F2059F9110012FF87 /* AlarmDetailViewController.swift */,
 				43B70B20205B3682007B5488 /* ShowerDetailViewController.swift */,
+				431B6353205F588200970DBC /* LoginViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				431B6354205F588200970DBC /* LoginViewController.swift in Sources */,
 				43B4E28A2059F8AD0012FF87 /* ShowersViewController.swift in Sources */,
 				430BECDF20589B1D00ADF817 /* Shower_Scheduler.xcdatamodeld in Sources */,
 				430BECD720589B1D00ADF817 /* AppDelegate.swift in Sources */,
