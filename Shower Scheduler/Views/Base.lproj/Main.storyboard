@@ -35,6 +35,7 @@
                         <viewLayoutGuide key="safeArea" id="LRz-vu-mfn"/>
                     </view>
                     <connections>
+                        <outlet property="loginButton" destination="SJS-4e-W5W" id="1mG-nF-UOu"/>
                         <segue destination="21J-TK-C7z" kind="show" identifier="login" id="uL2-Pd-7s1"/>
                     </connections>
                 </viewController>

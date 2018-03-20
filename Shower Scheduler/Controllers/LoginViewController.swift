@@ -10,13 +10,15 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var loginButton: UIButton!
+    
     @IBAction func loginPressed(_ sender: UIButton) {
         print("Logging in...")
         performSegue(withIdentifier: "login", sender: self)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        loginButton.layer.cornerRadius = loginButton.frame.height / 2
         // Do any additional setup after loading the view.
     }
 
